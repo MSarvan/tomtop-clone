@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processing Payment</title>
+    <link rel="shortcut icon" type="image/png" href="data:image/jpeg;base64,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">
+</head>
+
+<style>
+    .style
+    {
+        width: 900px;
+        height: 500px;
+        /* border: 1px solid black; */
+        margin: auto;
+        margin-top: 100px;
+        align-content: center;
+        box-sizing: border-box;
+        padding: 100px;
+    }
+    .loading
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .loading--full-height
+    {
+        align-items: center;
+        height: 100%;
+    }
+    .font
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        justify-content: center;
+        text-align: center;
+    }
+    .loading::after
+    {
+        content: "";
+        width: 30px;
+        height: 30px;
+        border: 10px solid #c9cacc;
+        border-top-color: #2874f0;
+        border-radius: 50%;
+        animation: loading 1s linear infinite;
+    }
+
+    @keyframes loading {
+        to {
+            transform: rotate(360deg);
+        }
+    }
+</style>
+
+<body>
+    <div class="style">
+        <p class="font">Please wait, we are processing your payment...</p>
+        <div class="loading"></div>
+    </div>
+</body>
+</html>
+
+<script>
+    function loadingPage1()
+    {
+        setTimeout(() =>
+        {
+            document.location.href = "checkout.html";
+        }, 5000);
+    }
+
+    loadingPage1();
+
+</script>

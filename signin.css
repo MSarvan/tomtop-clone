@@ -1,0 +1,104 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bckgrnd
+{
+    width: 100%;
+    height: 825px;
+    background-color: #f0f0f0;
+    /* border: 1px solid black; */
+}
+.image
+{
+    margin: auto;
+    /* border: 1px solid green; */
+    width: 250px;
+    height: 80px;
+    padding-top: 30px;
+}
+img
+{
+    width: 250px;
+    height: 80px;   
+}
+.cont
+{
+    width: 500px;
+    height: 630px;
+    margin: auto;
+    /* border: 1px solid red; */
+    background-color: white;
+    box-sizing: border-box;
+    padding: 50px 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.icons
+{
+    display: flex;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-top: 4px;
+}
+.icons img
+{
+    width: 40px;
+    height: 40px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+}
+.or
+{
+    display: flex;
+    margin-top: 30px;
+    color: thistle;
+}
+.p1
+{
+    font-size: 26px;
+    font-weight: 600;
+}
+.p2
+{
+    margin-top: 25px;
+}
+input
+{
+    width: 420px;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.input2
+{
+    margin-top: 20px;
+}
+.ins
+{
+    /* border: 1px solid blue; */
+    color: gray;
+    margin-top: 10px;
+    width: 190px;
+    cursor: pointer;
+}
+button
+{
+    margin-top: 25px;
+    background-color: orange;
+    width: 420px;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.create
+{
+    color: blue;
+    cursor: pointer;
+}

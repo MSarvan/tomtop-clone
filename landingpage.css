@@ -1,0 +1,543 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.offer img
+{
+    width: 100%;
+    height: 100px;
+    cursor: pointer;
+}
+.navbar
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: -5px;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+    padding-left: 130px;
+    background-color: #f0f0f0;
+}
+.navbar img
+{
+    width: 250px;
+    height: 75px;
+}
+.lang img
+{
+    width: 30px;
+    height: 20px
+}
+.lang
+{
+    /* border: 1px solid red; */
+    height: 50px;
+    width: 120px;
+    margin-left: 70px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    align-items: center;
+    align-content: center;
+}
+.searchbar
+{
+    width: 650px;
+    background-color: white;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 15px;
+    box-sizing: border-box;
+    border: 1px solid green;
+}
+.div1
+{
+    display: flex;
+}
+.div2
+{
+    color: royalblue;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    cursor: pointer;
+}
+.all
+{
+    /* border: 1px solid red; */
+    width: 80px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-left: 10px;
+    /* vertical-align: middle; */
+    /* align-content: center; */
+    /* align-items: center; */
+}
+.material-icons-outlined
+{
+    padding-top: 0px;
+}
+.input
+{
+    width: 500px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    padding-left: 5px;
+}
+.search
+{
+    background-color: royalblue;
+    color: white;
+    width: 65px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#icon
+{
+    width: 80px;
+    height: 50px;
+    /* border: 1px solid black; */
+    /* margin-left: 60px; */
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 50px;
+}
+.btn
+{
+    /* border: 1px solid red; */
+    margin-left: 130px;
+
+}
+button
+{
+    border: none;
+    cursor: pointer;
+}
+button p
+{
+    font-size: 16px;
+}
+.cart_btn
+{
+    width: 160px;
+    height: 35px;
+    font-size: 16px;
+    color: white;
+    background-color: orange;
+    margin-top: 10px;
+}
+.options
+{
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+.choice
+{
+    display: flex;
+    margin-left: 90px;
+}
+.choice p
+{
+    margin-left: 70px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.p4
+{
+    padding-top: 27px;
+}
+.p5
+{
+    padding-top: 19px;
+}
+.menu
+{
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: 600;
+    box-sizing: border-box;
+    padding-top: 17px;
+}
+.li_img
+{
+    /* border: 1px solid yellow; */
+    margin-left: 200px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    color: black;
+    cursor: pointer;
+}
+.li_img img
+{
+    width: 175px;
+}
+#car1
+{
+    display: flex;
+    overflow: hidden;
+}
+#car1 img
+{
+    width: 100%;
+    cursor: pointer;
+}
+.main
+{
+    width: 100%;
+    height: 3450px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    margin-top: -5px;
+}
+.merry
+{
+    display: flex;
+    box-sizing: border-box;
+    height: 440px;
+    /* border: 1px solid black; */
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.merry img
+{
+    width: 350px;
+    height: 320px;
+    cursor: pointer;
+}
+.flash_sale
+{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    padding: 35px 100px;
+}
+.add1 img
+{
+    width: 300px;
+    height: 380px;
+    /* border: 1px solid green; */
+}
+.car2
+{
+    width: 1285px;
+    height: 380px;
+    /* border: 1px solid greenyellow; */
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+    margin-left: 20px;
+}
+.product
+{
+    width: 300px;
+    height: 380px;
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 50px 15px 15px 15px;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+.product:hover
+{
+    cursor: pointer;
+    animation: animate__slideInUp2 0.5s ease-in;
+}
+@keyframes animate__slideInUp2
+{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.product1
+{
+    width: 300px;
+    height: 380px;
+    /* border: 1px solid black; */
+    background-color: white;
+    padding: 50px 15px 15px 15px;
+    box-sizing: border-box;
+    position: relative;
+    left: 0;
+    text-align: center;
+    margin-right: 20px;  
+}
+.product1:hover
+{
+    cursor: pointer;
+    animation: animate__slideInUp2 0.5s ease-in;
+}
+@keyframes animate__slideInUp2
+{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+.txt p
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.price
+{
+    font-size: 18px;
+    font-weight: 700;
+    color: tomato;
+}
+.heading
+{
+    width: 100;
+    height: 120px;
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.car3
+{
+    width: 1585px;
+    height: 380px;
+    /* border: 1px solid greenyellow; */
+    box-sizing: border-box;
+    display: flex;
+    overflow: hidden;
+}
+.electronics
+{
+    width: 1585px;
+    height: 685px;
+    margin-left: 100px;
+    /* border: 1px solid greenyellow; */
+    box-sizing: border-box;
+    display: flex;
+}
+.cont1
+{
+    width: 530px;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+.cont1 img
+{
+    width: 100%;
+    cursor: pointer;
+}
+#txt1
+{
+    /* border: 1px solid red; */
+    margin-top: -100px;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+.name
+{
+    font-size: 30px;
+}
+.price1
+{
+    text-align: center;
+    margin-top: 5px;
+    color: gray;
+}
+.cont2
+{
+    height: 100%;
+    width: 625px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    background-color: white;
+}
+.outer
+{
+    display: flex;
+}
+.pic
+{
+    height: 229px;
+    width: 210px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+.details
+{
+    height: 229px;
+    width: 415px;
+    box-sizing: border-box;
+    padding: 45px 20px;
+    cursor: pointer;
+}
+.price2
+{
+    font-size: 22px;
+    font-weight: 700;
+    color: tomato;
+}
+.det1
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.det2
+{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: gray;
+    margin-top: 10px;
+}
+#details
+{
+    border-bottom: 1px solid thistle;
+    border-top: 1px solid thistle;
+}
+.price3
+{
+    color: gray;
+}
+.cont3
+{
+    height: 100%;
+    width: 410px;
+    margin-left: 10px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: white;
+}
+.smart
+{
+    border-bottom: 1px solid thistle;
+    height: 35px;
+    box-sizing: border-box;
+    margin-top: 10px;
+}
+.pro_img
+{
+    width: 150px;
+    height: 120px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.pro_img img
+{
+    width: 110px;
+    height: 110px;
+}
+.pro_det
+{
+    box-sizing: border-box;
+    padding: 25px 15px;
+    width: 240px;
+    height: 120px;
+    cursor: pointer;
+}
+#bottom_line
+{
+    border-bottom: 1px solid thistle;
+}
+.footer
+{
+    background-color: white;
+    width: 100%;
+    height: 510px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.follow_us
+{
+    display: flex;
+    height: 80px;
+    /* border: 1px solid yellow; */
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.f_icons img
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.tom
+{
+    margin-left: 725px;
+}
+.tom_img img
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.company_info
+{
+    display: flex;
+    height: 340px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.company_info div
+{
+    margin-right: 105px;
+}
+.coupon
+{
+    width: 260px;
+    height: 25px;
+    font-size: 16px;
+}
+.sub
+{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    background-color: orange;
+}
+.linespace
+{
+    line-height: 35px;
+    cursor: pointer;
+}
+.copyright
+{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}

@@ -1,0 +1,334 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bgrnd
+{
+    background-color: white;
+    width: 100%;
+    height: 1100px;
+    /* border: 1px solid black; */
+}
+.div1
+{
+    display: flex;
+}
+.div1 img
+{
+    width: 250px;
+    height: 80px;
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    margin-left: 100px;   
+}
+.shop
+{
+    margin-top: 125px;
+    /* border: 1px solid black; */
+    margin-left: 250px;
+    height: 35px;
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+    color: white;
+    background-color: orange;
+}
+.ship
+{
+    margin-top: 125px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    height: 35px;
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+    color: white;
+    background-color: orange;
+}
+.pay
+{
+    margin-top: 125px;
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    height: 35px;
+    width: 350px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 7px;
+    background-color: rgb(247, 247, 247);
+}
+.txt1
+{
+    margin-left: 100px;
+    margin-top: 25px;
+    /* border: 1px solid blue; */
+    font-size: 27px;
+}
+.main
+{
+    display: flex;
+}
+.item1
+{
+    /* border: 1px solid blue; */
+    margin-left: 200px;
+    color: gray;
+
+}
+.price1
+{
+    /* border: 1px solid blue; */
+    margin-left: 550px;
+    color: gray;
+}
+.qty1
+{
+    /* border: 1px solid blue; */
+    margin-left: 150px;
+    color: gray;
+}
+.total1
+{
+    /* border: 1px solid blue; */
+    margin-left: 150px;
+    color: gray;
+}
+.box1
+{
+    border: 1px solid thistle;
+    margin-left: 100px;
+    width: 1253px;
+    height: 45px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: orangered;
+}
+.box2
+{
+    border: 1px solid thistle;
+    margin-left: 100px;
+    width: 1250px;
+    height: 200px;   
+}
+.shop_btn
+{
+    width: 200px;
+    height: 40px;
+    color: gray;
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 35px;
+    border-color: thistle;
+    cursor: pointer;
+}
+.summary
+{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+    background-color: rgb(247, 247, 247);
+    box-sizing: border-box;
+    padding: 25px 10px 0px 10px;
+}
+.subtotal
+{
+    margin-top: 20px;
+}
+.subtot_amt
+{
+    margin-left: 115px;
+}
+.discount
+{
+    margin-top: 15px;
+}
+.dis_amt
+{
+    margin-left: 140px;
+}
+.total
+{
+    margin-top: 15px;
+}
+.tot_amt
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: tomato;
+    margin-left: 120px;
+}
+.promo
+{
+    margin-top: 25px;
+}
+.input
+{
+    width: 170px;
+    height: 25px;
+    font-size: 17px;
+}
+.apply
+{
+    margin-left: 10px;
+    background-color: orange;
+    color: white;
+    width: 75px;
+    height: 28px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.flash
+{
+    margin-top: 25px;
+    color: gray;
+}
+.checkout_btn
+{
+    width: 275px;
+    height: 40px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: orange;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer
+{
+    background-color: white;
+    width: 100%;
+    height: 510px;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+}
+.follow_us
+{
+    display: flex;
+    height: 80px;
+    /* border: 1px solid yellow; */
+    margin-top: 30px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.f_icons img
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.tom
+{
+    margin-left: 725px;
+}
+.tom_img img
+{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.company_info
+{
+    display: flex;
+    height: 340px;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+.company_info div
+{
+    margin-right: 105px;
+}
+.coupon
+{
+    width: 260px;
+    height: 25px;
+    font-size: 16px;
+}
+.sub
+{
+    width: 150px;
+    height: 35px;
+    color: white;
+    font-size: 16px;
+    background-color: orange;
+}
+.linespace
+{
+    line-height: 35px;
+    cursor: pointer;
+}
+.copyright
+{
+    /* border: 1px solid yellow; */
+    text-align: center;
+    margin-top: 10px;
+    color: gray;
+}
+.address
+{
+    border: 1px solid thistle;
+    width: 600px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 35px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.address p
+{
+    line-height: 25px;
+}
+
+.box2
+{
+    display: flex;
+    padding: 25px;
+    box-sizing: border-box;
+}
+.box2 img
+{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid red; */
+}
+.pro_name
+{
+    width: 450px;
+    /* border: 1px solid green; */
+    margin-left: 25px;
+    box-sizing: border-box;
+    padding: 25px;
+}
+.pro_pri
+{
+    /* border: 1px solid blue; */
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.pro_qty
+{
+    /* border: 1px solid yellow; */
+    margin-left: 135px;
+    margin-top: 50px;
+}
+.pro_pri1
+{
+    /* border: 1px solid blue; */
+    margin-left: 145px;
+    margin-top: 50px;
+    font-size: 17px;
+    font-weight: 800;
+}
